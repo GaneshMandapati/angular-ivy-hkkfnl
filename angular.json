@@ -30,7 +30,8 @@
             "aot": true,
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
-            "scripts": []
+            "scripts": [],
+            "localize": true
           },
           "configurations": {
             "production": {
@@ -60,6 +61,9 @@
                 }
               ]
             },
+            "en-US": {
+              "localize": ["en-US"]
+            },
             "fr": {
               "localize": ["fr"]
             }
@@ -73,6 +77,9 @@
           "configurations": {
             "production": {
               "browserTarget": "i18n-angular-demo:build:production"
+            },
+            "en-US": {
+              "browserTarget": "angular-i18n-example:build:en-US"
             },
             "fr": {
               "browserTarget": "i18n-angular-demo:build:fr"
