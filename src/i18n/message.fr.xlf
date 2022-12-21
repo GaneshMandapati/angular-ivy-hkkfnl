@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="hello.meassge" datatype="html">
+        <source>A simple message.</source>
+        <target>Un message simple.</target>
+      </trans-unit>
+     
+      <trans-unit id="message.date-format" datatype="html">
+        <source>Formatted date:<x id="INTERPOLATION" equiv-text="{{ currentDate | date: &quot;fullDate&quot; }}"/> </source>
+        <target>Date formatée : <x id="INTERPOLATION" equiv-text="{{ currentDate | date: &quot;fullDate&quot; }}"/></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+s

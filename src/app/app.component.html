@@ -1,0 +1,15 @@
+<div>
+  <p i18n="@@hello.meassge">A simple message.</p>
+  <p i18n="@@message.date-format">
+    Formatted date: {{ currentDate | date: 'fullDate' }}
+  </p>
+</div>
+
+<div class="lang-picker">
+  <div *ngFor="let locale of locales">
+    <a href="/{{ locale.localeCode }}/">
+      {{ locale.label }}
+    </a>
+  </div>
+</div>
+...
